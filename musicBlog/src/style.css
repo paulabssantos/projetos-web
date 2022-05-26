@@ -1,0 +1,80 @@
+/*Importar fonte */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+/*Limpar formatações padrão*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+    background: black;
+}
+
+/*#d9dee2*/
+
+h1 {
+    color: white;
+    font-weight: 900;
+}
+
+h4 {
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:link, a:visited{
+    color: white;
+}
+
+a:hover{
+    color: white;
+    background: #6112b5;
+}
+
+#navbar {
+    background-color: black;
+    text-align: center;
+}
+
+#menu {
+    padding: 30px;
+}
+
+#producao_musical {
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+
+.titulo {
+    text-align: center;
+}
+.artigo{
+    background-color: rgba(255, 255, 255, 0.774);
+    padding: 15px;
+    margin: 1%;
+    border-radius: 5px;
+    width: 20em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}   
+
+.artigo p {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.botao-artigo {
+    color: white;
+    background-color: #6112b5;
+    text-align: center;
+}
